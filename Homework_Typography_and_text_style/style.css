@@ -1,0 +1,50 @@
+
+main{
+    font-family: sans-serif ;
+}
+header{
+    font-family:'Courier New', Courier, monospace;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-size: 40px;
+    font-weight: 1000;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+h3{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+h3::after {
+    content: "💕💕";
+}
+h3::before {
+    content: "💕💕";
+}
+#first{
+    height: 30;
+    text-indent: 50px;
+}
+#secound{
+    height: 30;
+    text-indent: 50px;
+}
+#third{
+    height: 30;
+    text-indent: 50px;
+}
+footer{
+    text-align: center;
+    text-decoration: underline;
+}
+.red{
+    text-decoration: line-through;
+}
