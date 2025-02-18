@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .heading{
+          background-color: brown;
+          text-align: center;
+          font-size: 40px;
+          display: block;
+          margin: 2px;
+          border: 5px solid rgb(103, 14, 14);
+
+      }
+      .form{
+          color: darkblue;
+          margin: 20px;
+          padding: 10px;
+          border: 5px solid rgb(10, 0, 0);
+
+      }
+      .button{
+          color: blue;/ekhan e button ta color change korte chaichi ....mane ,click korle change hoi na color ...ota thik mone porche na/
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <span class="heading"> Startup Registration Form </span>
+      <div class="form">
+        <ul>
+          <li>
+            <u>Startup Name</u>
+            <input type="text" name="Name" placeholder="Startup Name" /><br />
+          </li>
+
+          <li><u>Contact details</u><br /></li>
+          Email id
+          <input type="email" name="email" placeholder="Email" /><br />
+          Phone no
+          <input
+            type="number"
+            name="number"
+            placeholder="Phone number"
+          /><br /><br />
+
+          <li><u>Required Skill</u><br /></li>
+          Marketing
+          <input type="checkbox" name="t&c" value="true" /><br />
+          Development
+          <input type="checkbox" name="t&c" value="true" /><br />
+          Design
+          <input type="checkbox" name="t&c" value="true" /><br /><br />
+
+          <li>
+            <u>Startup type</u><br />
+            <input type="radio" name="startup type" value="B2B" />B2B
+            <input type="radio" name="startup type" value="B2C" />B2C
+          </li>
+          <br />
+          <li>
+            <u>Describe Your startup idea</u>
+            <textarea name="commemt" rows="2" cols="20"></textarea>
+          </li>
+          <br /><br />
+          <li>
+            <u>Upload Startup logo idea</u>
+            <input type="file" name="filename" />
+          </li>
+          <br /><br />
+
+          <li>
+            Industry type
+            <select name="Industry" id="industry">
+              <option value="Tech">Tech</option>
+              <option value="Healthcare">Healthcare</option>
+              <option value="Education">Education</option>
+              <option value="Food">Food</option>
+            </select>
+          </li>
+          <br />
+          <div class="button">
+            <input type="submit" value="submit" />
+          </div>
+        </ul>
+      </div>
+    </form>
+  </body>
+</html>
